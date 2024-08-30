@@ -1,0 +1,45 @@
+body {
+    
+    
+}
+*{
+    /* padding: 0; */
+    /* margin: 0; */
+}
+ul{
+    list-style: none;
+    float: right;
+    margin-top: 30px;
+    position: absolute;
+    right: 30px;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+li{
+    display: inline;
+    padding: 15px;
+}
+header{
+    display: flex;
+    background-color: aqua;
+    width: 100%;
+}
+button{
+    background-color: red;
+    border: 1px solid red;
+    width: 80px;
+}
+.images{
+    background-image: url(./backgroung1.jpg);
+    /* width: 80vw; */
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.color{
+    color: orangered;
+}
